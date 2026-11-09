@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gong Moviees | Malayalam movies at the Gala, Warrawong</title>
+<meta name="description" content="Gong Moviees brings Malayalam films to the Illawarra, screened at the Gala Twin Cinema in Warrawong. Coming up: Bachelor Party 2 and Athimanoharam.">
+<meta property="og:title" content="Gong Moviees">
+<meta property="og:description" content="Malayalam movies on the big screen at the Gala Twin Cinema, Warrawong.">
+<meta property="og:image" content="images/gong-logo.png">
+<meta name="theme-color" content="#0C0B09">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&amp;family=Archivo:wght@400;500;700&amp;family=Manjari:wght@400;700&amp;display=swap">
+<style>
+body{margin:0;background:#0C0B09}
+.gold{background:linear-gradient(180deg,#F7E2A4 0%,#D8AE58 48%,#A47A30 52%,#E5C273 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+html{scroll-behavior:smooth}
+a{color:#E2C07A}a:hover{color:#F3DCA6}
+.btn{transition:background-color .25s ease,color .25s ease}
+.btn-g:hover{background:#F3E6D3 !important;color:#0C0B09 !important}
+.btn-c:hover{background:#0C0B09 !important;color:#F3E6D3 !important}
+.ul{background-image:linear-gradient(currentColor,currentColor);background-size:0 1px;background-repeat:no-repeat;background-position:0 100%;transition:background-size .35s ease}
+.ul:hover{background-size:100% 1px}
+.progress{position:fixed;top:0;left:0;right:0;height:2px;background:#E2C07A;transform-origin:0 50%;transform:scaleX(0);z-index:60}
+.mask{display:block;overflow:hidden}
+@media (prefers-reduced-motion: no-preference){
+  .in1{animation:inUp .8s cubic-bezier(.2,.7,.2,1) both}
+  .in2{animation:inUp .8s .12s cubic-bezier(.2,.7,.2,1) both}
+  .in3{animation:inUp .8s .24s cubic-bezier(.2,.7,.2,1) both}
+  @supports (animation-timeline: view()){
+    .progress{animation:grow linear both;animation-timeline:scroll(root)}
+    .hero-copy{animation:lift linear both;animation-timeline:scroll(root);animation-range:0 70vh}
+    .fanL{animation:fanL linear both;animation-timeline:scroll(root);animation-range:0 70vh}
+    .fanR{animation:fanR linear both;animation-timeline:scroll(root);animation-range:0 70vh}
+    .fanC{animation:fanC linear both;animation-timeline:scroll(root);animation-range:0 70vh}
+    .ticker{animation:tick linear both;animation-timeline:scroll(root)}
+    .ticker-r{animation:tickR linear both;animation-timeline:scroll(root)}
+    .l{display:inline-block;animation:letter linear both;animation-timeline:view()}
+    .l1{animation-range:entry 10% cover 30%}
+    .l2{animation-range:entry 20% cover 35%}
+    .l3{animation-range:entry 30% cover 40%}
+    .l4{animation-range:entry 40% cover 45%}
+    .l5{animation-range:entry 50% cover 50%}
+    .wipe{animation:wipe linear both;animation-timeline:view();animation-range:entry 0% cover 45%}
+    .wipe img{animation:settle linear both;animation-timeline:view();animation-range:entry 0% exit 100%}
+    .up{animation:up linear both;animation-timeline:view();animation-range:entry 10% cover 30%}
+    .rise{animation:rise linear both;animation-timeline:view();animation-range:entry 5% cover 30%}
+    .evL{animation:fromL linear both;animation-timeline:view();animation-range:entry 0% cover 40%}
+    .evR{animation:fromR linear both;animation-timeline:view();animation-range:entry 0% cover 40%}
+    .grow{animation:growIn linear both;animation-timeline:view();animation-range:entry 0% cover 40%}
+  }
+}
+@keyframes fromL{from{opacity:0;transform:translateX(-120px) rotate(-6deg)}to{opacity:1;transform:rotate(-1.5deg)}}
+@keyframes fromR{from{opacity:0;transform:translateX(120px) rotate(6deg)}to{opacity:1;transform:rotate(1.5deg)}}
+.ev img{transition:transform .5s ease}
+.ev:hover img{transform:scale(1.04)}
+@keyframes fanL{to{transform:translate(-30%,10%) rotate(-24deg)}}
+@keyframes fanR{to{transform:translate(30%,14%) rotate(22deg)}}
+@keyframes fanC{to{transform:translateY(-12%) rotate(0deg) scale(1.06)}}
+@keyframes inUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes dealL{from{transform:rotate(-2deg) translateX(20%)}to{transform:rotate(-12deg)}}
+@keyframes dealR{from{transform:rotate(-2deg) translateX(-20%)}to{transform:rotate(10deg)}}
+.nowbar .nowbar-cta{transition:background-color .25s ease}
+.nowbar:hover .nowbar-cta{background:#F3E6D3 !important}
+@keyframes grow{to{transform:scaleX(1)}}
+@keyframes shrink{to{transform:scale(.55) translateY(-10%);opacity:0;filter:blur(6px)}}
+@keyframes lift{to{transform:translateY(-80px);opacity:0}}
+@keyframes tick{to{transform:translateX(-50%)}}
+@keyframes tickR{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+@keyframes letter{from{transform:translateY(110%) rotate(6deg);opacity:0}to{transform:none;opacity:1}}
+@keyframes wipe{from{clip-path:inset(100% 0 0 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes settle{from{transform:scale(1.25)}to{transform:scale(1) translateY(-30px)}}
+@keyframes up{from{transform:translateY(105%)}to{transform:none}}
+@keyframes rise{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
+@keyframes growIn{from{opacity:0;transform:scale(.8);letter-spacing:-.04em}to{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div style="background: #0C0B09; color: #EFE7D8; font-family: 'Archivo', system-ui, sans-serif; min-height: 100vh; overflow-x: clip">
+<div class="progress" aria-hidden="true"></div>
+
+<!-- HEADER -->
+<header style="position: sticky; top: 0; z-index: 50; background: rgba(12,11,9,.85); backdrop-filter: blur(10px)">
+<div style="max-width: 1280px; margin: 0 auto; padding: 10px 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px">
+<a href="#top" style="display: flex; align-items: center; text-decoration: none">
+<img src="images/gong-logo.png" alt="Gong Moviees" style="height: 58px; width: auto; display: block">
+</a>
+<nav aria-label="Main" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 4px 28px; font-size: 15px">
+<a class="ul" href="#now-showing" style="color: #EFE7D8; text-decoration: none; padding: 10px 0">Coming up</a>
+<a class="ul" href="#past" style="color: #EFE7D8; text-decoration: none; padding: 10px 0">Past events</a>
+<a class="ul" href="#about" style="color: #EFE7D8; text-decoration: none; padding: 10px 0">About</a>
+<a class="ul" href="#contact" style="color: #EFE7D8; text-decoration: none; padding: 10px 0">Contact</a>
+<a class="btn btn-g" href="#now-showing" style="color: #0C0B09; background: #E2C07A; text-decoration: none; padding: 12px 22px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; font-size: 14px">Films</a>
+</nav>
+</div>
+</header>
+
+<!-- HERO -->
+<section id="top" style="max-width: 1280px; margin: 0 auto; padding: 56px 24px 110px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px 48px">
+<div class="hero-copy" style="flex: 1 1 500px; min-width: 0; display: flex; flex-direction: column; gap: 30px">
+<img class="in1" src="images/gong-logo.png" alt="Gong Moviees: Entertainment for everyone" style="width: 190px; height: auto; display: block">
+<h1 class="in2" style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: clamp(64px, 8.4vw, 124px); line-height: .86; text-transform: uppercase; color: #EFE7D8">Malayalam movies.<br>Big screen.<br><span style="color: #E2C07A">Warrawong.</span></h1>
+<a class="in3 nowbar" href="#now-showing" style="display: flex; flex-wrap: wrap; align-items: stretch; max-width: 560px; text-decoration: none; border: 1.5px solid #EFE7D8">
+<span style="display: flex; align-items: center; padding: 14px 18px; background: #9E1B14; color: #F3E6D3; font-size: 13px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase">Coming up</span>
+<span style="flex: 1 1 200px; display: flex; flex-direction: column; justify-content: center; padding: 10px 18px; color: #EFE7D8">
+<span style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 28px; line-height: 1; text-transform: uppercase">Bachelor Party 2</span>
+<span style="font-size: 14px; color: #B5AC9A">Releases 19 Nov · then Athimanoharam, 24 Dec</span>
+</span>
+<span class="nowbar-cta" style="display: flex; align-items: center; padding: 14px 20px; background: #E2C07A; color: #0C0B09; font-weight: 700; font-size: 15px; letter-spacing: .04em; text-transform: uppercase">See films →</span>
+</a>
+</div>
+<div aria-hidden="true" style="flex: 1 1 420px; min-width: 0; display: flex; justify-content: center">
+<div style="position: relative; width: min(440px, 86vw); aspect-ratio: 1 / 1.08">
+<div class="fan fanL" style="position: absolute; left: 6%; top: 14%; width: 56%; aspect-ratio: 1 / 1; transform: rotate(-12deg); border: 5px solid #F3E6D3; box-shadow: 0 20px 40px rgba(0,0,0,.6); overflow: hidden"><img src="images/athimanoharam.jpg" alt="" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 70%"></div>
+<div class="fan fanR" style="position: absolute; right: 2%; top: 22%; width: 56%; aspect-ratio: 1 / 1; transform: rotate(10deg); border: 5px solid #F3E6D3; box-shadow: 0 20px 40px rgba(0,0,0,.6); overflow: hidden"><img src="images/disco-poster.jpg" alt="" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%"></div>
+<div class="fan fanC" style="position: absolute; left: 21%; top: 0; width: 58%; aspect-ratio: 666 / 882; transform: rotate(-2deg); border: 6px solid #F3E6D3; box-shadow: 0 30px 60px rgba(0,0,0,.7); overflow: hidden"><img src="images/bachelor-party-2.jpg" alt="" style="display: block; width: 100%; height: 100%; object-fit: cover"></div>
+</div>
+</div>
+</section>
+
+<!-- TICKER -->
+<div aria-hidden="true" style="background: #8E1A12; color: #F3E6D3; overflow: hidden; white-space: nowrap; padding: 14px 0; transform: rotate(-2deg) scale(1.05); margin-bottom: -10px; position: relative; z-index: 2">
+<div class="ticker" style="display: inline-flex; gap: 40px; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 34px; text-transform: uppercase">
+<span>Coming up</span><span>✦</span><span>Bachelor Party 2</span><span>✦</span><span>Athimanoharam</span><span>✦</span><span lang="ml" style="font-family: 'Manjari', sans-serif">അതിമനോഹരം</span><span>✦</span>
+<span>Coming up</span><span>✦</span><span>Bachelor Party 2</span><span>✦</span><span>Athimanoharam</span><span>✦</span><span lang="ml" style="font-family: 'Manjari', sans-serif">അതിമനോഹരം</span><span>✦</span>
+<span>Coming up</span><span>✦</span><span>Bachelor Party 2</span><span>✦</span><span>Athimanoharam</span><span>✦</span><span lang="ml" style="font-family: 'Manjari', sans-serif">അതിമനോഹരം</span><span>✦</span>
+<span>Coming up</span><span>✦</span><span>Bachelor Party 2</span><span>✦</span><span>Athimanoharam</span><span>✦</span><span lang="ml" style="font-family: 'Manjari', sans-serif">അതിമനോഹരം</span><span>✦</span>
+</div>
+</div>
+
+<!-- COMING UP: edit or add films below -->
+<section id="now-showing">
+<!-- FILM: Bachelor Party 2 -->
+<article style="background: #8E1A12; color: #F3E6D3">
+<div style="max-width: 1280px; margin: 0 auto; padding: 100px 24px; display: flex; flex-wrap: wrap-reverse; align-items: center; gap: 56px">
+<div style="flex: 1 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<p class="rise" style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 700; font-size: 26px; text-transform: uppercase">Releases 19 Nov 2026</p>
+<h3 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: clamp(56px, 7.4vw, 120px); line-height: .88; text-transform: uppercase"><span class="mask"><span class="up" style="display: block">Bachelor Party 2</span></span></h3>
+<p class="rise" style="margin: 0; font-size: 17px; line-height: 1.6; max-width: 540px">Dir. Amal Neerad<br>Kunchacko Boban, Tovino Thomas, Naslen, Soubin Shahir, Sharafudheen</p>
+<div class="rise" style="display: flex; flex-wrap: wrap; align-items: center; gap: 14px 24px; padding-top: 18px; border-top: 2px solid #F3E6D3; max-width: 540px">
+<span style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 700; font-size: 26px; text-transform: uppercase">Tickets coming soon</span>
+<a class="ul" href="https://www.instagram.com/gongmoviees/" target="_blank" rel="noopener" style="color: #F3E6D3; text-decoration: none; padding: 10px 0; font-size: 15px">Follow @gongmoviees for sessions →</a>
+</div>
+</div>
+<div style="flex: 1 1 340px; min-width: 0; display: flex; justify-content: center">
+<div class="wipe" style="width: 100%; max-width: 420px; aspect-ratio: 666 / 882; overflow: hidden; box-shadow: 0 30px 60px rgba(0,0,0,.45)">
+<img src="images/bachelor-party-2.jpg" alt="Bachelor Party 2 poster" style="display: block; width: 100%; height: 110%; object-fit: cover">
+</div>
+</div>
+</div>
+</article>
+<!-- FILM: Athimanoharam -->
+<article style="background: #2E2117; color: #F3E6D3">
+<div style="max-width: 1280px; margin: 0 auto; padding: 100px 24px; display: flex; flex-wrap: wrap; flex-direction: row-reverse; align-items: center; gap: 56px">
+<div style="flex: 1 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<p class="rise" style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 700; font-size: 26px; text-transform: uppercase">Releases 24 Dec 2026</p>
+<h3 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: clamp(56px, 7.4vw, 120px); line-height: .88; text-transform: uppercase"><span class="mask"><span class="up" style="display: block">Athimanoharam</span></span></h3>
+<p lang="ml" style="margin: 0; font-family: 'Manjari', sans-serif; font-weight: 700; font-size: 34px; line-height: 1.2">അതിമനോഹരം</p>
+<p class="rise" style="margin: 0; font-size: 17px; line-height: 1.6; max-width: 540px">Dir. Tharun Moorthy<br>Mohanlal, Meera Jasmine, Jagadish, Siddique, Manoj K. Jayan</p>
+<div class="rise" style="display: flex; flex-wrap: wrap; align-items: center; gap: 14px 24px; padding-top: 18px; border-top: 2px solid #F3E6D3; max-width: 540px">
+<span style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 700; font-size: 26px; text-transform: uppercase">Tickets coming soon</span>
+<a class="ul" href="https://www.instagram.com/gongmoviees/" target="_blank" rel="noopener" style="color: #F3E6D3; text-decoration: none; padding: 10px 0; font-size: 15px">Follow @gongmoviees for sessions →</a>
+</div>
+</div>
+<div style="flex: 1 1 340px; min-width: 0; display: flex; justify-content: center">
+<div class="wipe" style="width: 100%; max-width: 420px; aspect-ratio: 675 / 900; overflow: hidden; box-shadow: 0 30px 60px rgba(0,0,0,.45)">
+<img src="images/athimanoharam.jpg" alt="Athimanoharam poster" style="display: block; width: 100%; height: 110%; object-fit: cover">
+</div>
+</div>
+</div>
+</article>
+</section>
+
+<!-- ABOUT -->
+<section id="about" style="max-width: 1280px; margin: 0 auto; padding: 140px 24px 0; display: flex; flex-wrap: wrap; gap: 32px 80px; align-items: flex-end">
+<h2 style="flex: 1 1 420px; margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: clamp(56px, 8vw, 110px); line-height: .88; text-transform: uppercase; color: #EFE7D8">
+<span class="mask"><span class="up" style="display: block">Kerala's best,</span></span>
+<span class="mask"><span class="up" style="display: block; color: #E2C07A">close to home.</span></span>
+</h2>
+<p class="rise" style="flex: 1 1 420px; margin: 0; font-size: 19px; line-height: 1.7; color: #CFC6B4">Gong Moviees brings Malayalam films to the Illawarra, one at a time, at the Gala in Warrawong. We also help bring Malayalam artists to stages around Australia.</p>
+</section>
+
+<!-- PAST EVENTS -->
+<section id="past" style="max-width: 1280px; margin: 0 auto; padding: 140px 24px; display: flex; flex-direction: column; gap: 56px">
+<h2 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: clamp(56px, 8vw, 110px); line-height: .88; text-transform: uppercase; color: #EFE7D8">
+<span class="mask"><span class="up" style="display: block">Past events</span></span>
+</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 56px 48px">
+<figure class="ev evR" style="margin: 0; display: flex; flex-direction: column; gap: 16px; transform: rotate(1.5deg)">
+<div style="overflow: hidden; border: 6px solid #F3E6D3"><img src="images/disco-poster.jpg" alt="Disco poster" style="display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 25%"></div>
+<figcaption style="display: flex; justify-content: space-between; gap: 16px; align-items: baseline">
+<span style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 30px; text-transform: uppercase">Disco</span>
+<span style="font-size: 14px; color: #8F8674; white-space: nowrap">Nov 2026</span>
+</figcaption>
+<p style="margin: -8px 0 0; font-size: 15px; color: #B5AC9A">Gala Twin Cinema, Warrawong</p>
+</figure>
+<figure class="ev evL" style="margin: 0; display: flex; flex-direction: column; gap: 16px; transform: rotate(-1.5deg)">
+<div style="overflow: hidden; border: 6px solid #F3E6D3"><img src="images/neeraj-madhav-nj-live.jpg" alt="Neeraj Madhav NJ Live Australia poster" style="display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover"></div>
+<figcaption style="display: flex; justify-content: space-between; gap: 16px; align-items: baseline">
+<span style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 30px; text-transform: uppercase">Neeraj Madhav · NJ Live</span>
+<span style="font-size: 14px; color: #8F8674; white-space: nowrap">Oct 2025</span>
+</figcaption>
+<p style="margin: -8px 0 0; font-size: 15px; color: #B5AC9A">Sydney, Melbourne, Brisbane, Adelaide</p>
+</figure>
+<figure class="ev evR" style="margin: 0; display: flex; flex-direction: column; gap: 16px; transform: rotate(1.5deg)">
+<div style="overflow: hidden; border: 6px solid #F3E6D3"><img src="images/vineeth-sreenivasan-live.jpg" alt="Vineeth Sreenivasan Live in Australia poster" style="display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover"></div>
+<figcaption style="display: flex; justify-content: space-between; gap: 16px; align-items: baseline">
+<span style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 30px; text-transform: uppercase">Vineeth Sreenivasan Live</span>
+<span style="font-size: 14px; color: #8F8674; white-space: nowrap">Feb 2025</span>
+</figcaption>
+<p style="margin: -8px 0 0; font-size: 15px; color: #B5AC9A">Melbourne, Sydney</p>
+</figure>
+</div>
+</section>
+
+<!-- THE GALA -->
+<section id="visit" style="max-width: 1280px; margin: 0 auto; padding: 0 24px 140px; display: flex; flex-direction: column; gap: 28px">
+<h2 style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: clamp(64px, 10vw, 150px); line-height: .88; text-transform: uppercase; color: #EFE7D8">
+<span class="mask"><span class="up" style="display: block">Gala Twin</span></span>
+<span class="mask"><span class="up" style="display: block; color: #E2C07A">Cinema</span></span>
+</h2>
+<div class="rise" style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 32px; font-size: 20px">
+<span>204 Cowper St, Warrawong</span>
+<a class="ul" href="https://www.google.com/maps/search/?api=1&amp;query=Gala+Twin+Cinema+204+Cowper+Street+Warrawong+NSW" target="_blank" rel="noopener" style="text-decoration: none; padding: 10px 0">Directions →</a>
+</div>
+<div class="rise" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); border-top: 1px solid #3A3326; border-bottom: 1px solid #3A3326; max-width: 820px">
+<div style="padding: 20px 0"><p style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 48px; color: #E2C07A">$20</p><p style="margin: 4px 0 0; font-size: 15px; color: #B5AC9A">Adult</p></div>
+<div style="padding: 20px 0"><p style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 48px; color: #E2C07A">$18</p><p style="margin: 4px 0 0; font-size: 15px; color: #B5AC9A">UOW students</p></div>
+<div style="padding: 20px 0"><p style="margin: 0; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: 48px; color: #E2C07A">$5</p><p style="margin: 4px 0 0; font-size: 15px; color: #B5AC9A">Kids under 16</p></div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="border-top: 1px solid #2B261C; overflow: hidden">
+<div style="max-width: 1280px; margin: 0 auto; padding: 120px 24px; display: flex; flex-direction: column; align-items: center; gap: 28px; text-align: center">
+<a class="grow" href="https://www.instagram.com/gongmoviees/" target="_blank" rel="noopener" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; font-size: clamp(48px, 9vw, 130px); line-height: 1; text-transform: uppercase; color: #E2C07A; text-decoration: none">@gongmoviees</a>
+<div class="rise" style="display: flex; gap: 32px; font-size: 17px">
+<a class="ul" href="https://www.instagram.com/gongmoviees/" target="_blank" rel="noopener" style="text-decoration: none; padding: 10px 0">Instagram</a>
+<a class="ul" href="https://www.facebook.com/gong.moviees" target="_blank" rel="noopener" style="text-decoration: none; padding: 10px 0">Facebook</a>
+</div>
+<div class="rise" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 40px; font-size: 20px; margin-top: 16px">
+<a class="ul" href="tel:+61426424718" style="color: #EFE7D8; text-decoration: none; padding: 10px 0">0426 424 718</a>
+<a class="ul" href="mailto:anoopj77@yahoo.co.uk" style="color: #EFE7D8; text-decoration: none; padding: 10px 0">anoopj77@yahoo.co.uk</a>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer style="border-top: 1px solid #2B261C">
+<div style="max-width: 1280px; margin: 0 auto; padding: 28px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; font-size: 14px; color: #8F8674">
+<span>© 2026 Gong Moviees</span>
+<div style="display: flex; flex-wrap: wrap; gap: 4px 24px">
+<a class="ul" href="tel:+61426424718" style="text-decoration: none; padding: 10px 0">0426 424 718</a>
+<a class="ul" href="mailto:anoopj77@yahoo.co.uk" style="text-decoration: none; padding: 10px 0">anoopj77@yahoo.co.uk</a>
+</div>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
